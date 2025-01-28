@@ -12,11 +12,11 @@ public class Test {
         this.name = name;
         this.age = age;
     }
-
+    // Getter
     public String getName() {
         return name;
     }
-
+    // Setter
     public void setName(String name) {
         this.name = name;
     }
@@ -33,8 +33,8 @@ public class Test {
 	// public --> alle dürfen sehen/schreiben (+)
 	// private --> NUR die eigene Klasse / Objekt (-)
 	// protected --> NUR die eigene Klasse / Objekt + Subklassen (#)
-
- 
+    // Setter (Erstellbar durch Source Action)
+    // Getter (Erstellbar durch Source Action)
 
  
 
